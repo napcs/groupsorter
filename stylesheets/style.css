@@ -1,0 +1,42 @@
+
+/* apply a natural box layout model to all elements
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+     -moz-box-sizing: border-box; 
+          box-sizing: border-box;
+
+ }
+
+form ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#output p{
+  margin: 0;
+}
+
+textarea{
+  width: 100%;
+  height: 400px;
+}
+
+form, #output{
+  background-color: #eee;
+  float: left;
+  padding: 4%;
+  width: 50%;
+}
+
+#output > div{
+  width: 50%;
+  float: left;
+  margin-bottom: 20px;
+
+}
+
+#output h1, #output h2{
+  margin: 10px 0 0 0;
+}

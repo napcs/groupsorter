@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Group maker</title>
+    <link rel="stylesheet" href="assets/app.css">
+  </head>
+  <body>
+    <form id="groupmaker"> 
+      <ol>
+        <li>
+          <label for="number_of_groups">Number of groups</label>
+          <input type="number" name="number_of_groups" id="number_of_groups"  value="">
+        </li>
+        <li>
+          <label for="minimum_number_in_group">Minimum group size</label>
+          <input type="number" name="minimum_number_in_group" id="minimum_number_in_group" value="4">
+        </li>
+        <li>
+          <label for="names">Names</label><br>
+          <textarea id="names"></textarea>
+        </li>
+      </ol>
+
+      <input type="submit">
+
+    </form>
+
+    <div id="output">
+
+    </div>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
+
